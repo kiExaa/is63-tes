@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('jurusan');
             $table->string('tempat_lahir');
             $table->date('tanggal_lahir');
-            $table->date('nohp', 20)->unique();
+            $table->string('nohp', 20)->unique();
             $table->string('domisili');
             $table->string('email')->unique();
             $table->string('jenis_kelamin');
